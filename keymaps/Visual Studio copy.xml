@@ -5,6 +5,10 @@
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
@@ -28,6 +32,7 @@
     <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="ExternalSystem.CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
@@ -50,9 +55,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt n" />
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
+  <action id="GotoTest" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="Images.ShowThumbnails" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift ctrl f2" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -61,6 +68,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="Print" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="Rust.CargoFmtFile">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
